@@ -1,0 +1,59 @@
+29-Sep-2024 01:10:52.081 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.95
+29-Sep-2024 01:10:52.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Sep 13 2024 18:07:47 UTC
+29-Sep-2024 01:10:52.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.95.0
+29-Sep-2024 01:10:52.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+29-Sep-2024 01:10:52.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+29-Sep-2024 01:10:52.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-Sep-2024 01:10:52.085 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\jdk-17.0.4.1
+29-Sep-2024 01:10:52.085 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    17.0.4.1+1-LTS-2
+29-Sep-2024 01:10:52.085 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-Sep-2024 01:10:52.085 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95
+29-Sep-2024 01:10:52.085 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95
+29-Sep-2024 01:10:52.103 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=c:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95/conf/logging.properties
+29-Sep-2024 01:10:52.103 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Sep-2024 01:10:52.103 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+29-Sep-2024 01:10:52.103 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Sep-2024 01:10:52.103 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Sep-2024 01:10:52.103 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=c:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95
+29-Sep-2024 01:10:52.104 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=c:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95
+29-Sep-2024 01:10:52.104 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=c:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95/temp
+29-Sep-2024 01:10:52.108 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.4]加载了基于APR的Apache Tomcat本机库[1.3.1]。
+29-Sep-2024 01:10:52.108 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+29-Sep-2024 01:10:52.108 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+29-Sep-2024 01:10:52.113 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.0.14 4 Jun 2024]
+29-Sep-2024 01:10:52.327 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-Sep-2024 01:10:52.352 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[431]毫秒内初始化
+29-Sep-2024 01:10:52.415 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-Sep-2024 01:10:52.415 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.95]
+29-Sep-2024 01:10:52.423 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95\webapps\docs]
+29-Sep-2024 01:10:52.683 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95\webapps\docs]的部署已在[259]毫秒内完成
+29-Sep-2024 01:10:52.683 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95\webapps\examples]
+29-Sep-2024 01:10:53.055 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95\webapps\examples]的部署已在[371]毫秒内完成
+29-Sep-2024 01:10:53.055 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95\webapps\host-manager]
+29-Sep-2024 01:10:53.088 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95\webapps\host-manager]的部署已在[33]毫秒内完成
+29-Sep-2024 01:10:53.089 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95\webapps\manager]
+29-Sep-2024 01:10:53.116 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95\webapps\manager]的部署已在[28]毫秒内完成
+29-Sep-2024 01:10:53.116 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95\webapps\ROOT]
+29-Sep-2024 01:10:53.136 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\13120\Desktop\学习\Web\apache-tomcat-9.0.95\webapps\ROOT]的部署已在[20]毫秒内完成
+29-Sep-2024 01:10:53.141 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-Sep-2024 01:10:53.194 信息 [main] org.apache.catalina.startup.Catalina.start [842]毫秒后服务器启动
+29-Sep-2024 01:10:55.842 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+29-Sep-2024 01:10:55.843 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+29-Sep-2024 01:10:55.958 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+29-Sep-2024 01:10:55.963 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches 在Java 9或更高版本上运行时,需要向JVM命令行参数中添加"--add opens=Java.base/Java.io=ALL-UNNAMED",以启用ObjectStream缓存内存泄漏保护.或者，可以通过禁用ObjectStream类缓存内存泄漏保护来抑制此警告.
+29-Sep-2024 01:10:55.963 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks 在Java 9上运行时，需要在JVM命令行参数中添加“-add opens=Java.base/Java.lang=ALL-UNNAMED”，以启用线程本地内存泄漏检测。或者，可以通过禁用ThreadLocal内存泄漏检测来抑制此警告。
+29-Sep-2024 01:10:55.965 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets 在Java 9上运行时，需要在JVM命令行参数中添加“-add opens=Java.rmi/sun.rmi.transport=ALL-UNNAMED”，以启用rmi目标内存泄漏检测。或者，可以通过禁用RMI目标内存泄漏检测来抑制此警告。
+29-Sep-2024 01:10:55.968 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches 在Java 9或更高版本上运行时,需要向JVM命令行参数中添加"--add opens=Java.base/Java.io=ALL-UNNAMED",以启用ObjectStream缓存内存泄漏保护.或者，可以通过禁用ObjectStream类缓存内存泄漏保护来抑制此警告.
+29-Sep-2024 01:10:55.968 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks 在Java 9上运行时，需要在JVM命令行参数中添加“-add opens=Java.base/Java.lang=ALL-UNNAMED”，以启用线程本地内存泄漏检测。或者，可以通过禁用ThreadLocal内存泄漏检测来抑制此警告。
+29-Sep-2024 01:10:55.968 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets 在Java 9上运行时，需要在JVM命令行参数中添加“-add opens=Java.rmi/sun.rmi.transport=ALL-UNNAMED”，以启用rmi目标内存泄漏检测。或者，可以通过禁用RMI目标内存泄漏检测来抑制此警告。
+29-Sep-2024 01:10:55.970 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches 在Java 9或更高版本上运行时,需要向JVM命令行参数中添加"--add opens=Java.base/Java.io=ALL-UNNAMED",以启用ObjectStream缓存内存泄漏保护.或者，可以通过禁用ObjectStream类缓存内存泄漏保护来抑制此警告.
+29-Sep-2024 01:10:55.970 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks 在Java 9上运行时，需要在JVM命令行参数中添加“-add opens=Java.base/Java.lang=ALL-UNNAMED”，以启用线程本地内存泄漏检测。或者，可以通过禁用ThreadLocal内存泄漏检测来抑制此警告。
+29-Sep-2024 01:10:55.970 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets 在Java 9上运行时，需要在JVM命令行参数中添加“-add opens=Java.rmi/sun.rmi.transport=ALL-UNNAMED”，以启用rmi目标内存泄漏检测。或者，可以通过禁用RMI目标内存泄漏检测来抑制此警告。
+29-Sep-2024 01:10:55.972 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches 在Java 9或更高版本上运行时,需要向JVM命令行参数中添加"--add opens=Java.base/Java.io=ALL-UNNAMED",以启用ObjectStream缓存内存泄漏保护.或者，可以通过禁用ObjectStream类缓存内存泄漏保护来抑制此警告.
+29-Sep-2024 01:10:55.972 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks 在Java 9上运行时，需要在JVM命令行参数中添加“-add opens=Java.base/Java.lang=ALL-UNNAMED”，以启用线程本地内存泄漏检测。或者，可以通过禁用ThreadLocal内存泄漏检测来抑制此警告。
+29-Sep-2024 01:10:55.972 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets 在Java 9上运行时，需要在JVM命令行参数中添加“-add opens=Java.rmi/sun.rmi.transport=ALL-UNNAMED”，以启用rmi目标内存泄漏检测。或者，可以通过禁用RMI目标内存泄漏检测来抑制此警告。
+29-Sep-2024 01:10:55.973 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches 在Java 9或更高版本上运行时,需要向JVM命令行参数中添加"--add opens=Java.base/Java.io=ALL-UNNAMED",以启用ObjectStream缓存内存泄漏保护.或者，可以通过禁用ObjectStream类缓存内存泄漏保护来抑制此警告.
+29-Sep-2024 01:10:55.973 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks 在Java 9上运行时，需要在JVM命令行参数中添加“-add opens=Java.base/Java.lang=ALL-UNNAMED”，以启用线程本地内存泄漏检测。或者，可以通过禁用ThreadLocal内存泄漏检测来抑制此警告。
+29-Sep-2024 01:10:55.973 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets 在Java 9上运行时，需要在JVM命令行参数中添加“-add opens=Java.rmi/sun.rmi.transport=ALL-UNNAMED”，以启用rmi目标内存泄漏检测。或者，可以通过禁用RMI目标内存泄漏检测来抑制此警告。
+29-Sep-2024 01:10:55.973 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+29-Sep-2024 01:10:55.986 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
