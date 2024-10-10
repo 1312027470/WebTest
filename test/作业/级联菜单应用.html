@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    使用javascript数组实现省市级联菜单
+    <script>
+        var provinces = ['北京', '上海', '广东', '湖南'];
+        var cities = [
+            ['北京市'],
+            ['上海市'],
+            ['广州市', '深圳市', '珠海市'],
+            ['长沙市', '岳阳市', '株洲市']
+        ];
+        var province = document.createElement('select');    // 创建一个select元素
+        var city = document.createElement('select');
+        for (var i = 0; i < provinces.length; i++) {        // 遍历省份数组，创建option元素
+            var option = document.createElement('option');
+            option.innerHTML = provinces[i];
+            province.appendChild(option);
+        }
+        //appendChild() 向节点的子节点列表的末尾添加新的子节点。
+        for (var i = 0; i < cities[0].length; i++) {    // 遍历城市数组，创建option元素
+            var option = document.createElement('option');
+            option.innerHTML = cities[0][i];
+            city.appendChild(option);
+        }
+
+        province.onchange = function () {       // 为省份select元素添加onchange事件
+            city.innerHTML = '';
+            var index = province.selectedIndex;
+            for (var i = 0; i < cities[index].length; i++) {    // 根据省份的索引值，创建城市option元素
+                var option = document.createElement('option');
+                option.innerHTML = cities[index][i];
+                city.appendChild(option);
+            }
+        }
+        document.body.appendChild(province);//将省份和城市select元素添加到body元素中
+        document.body.appendChild(city);    
+    </script>
+
+</body>
+
+</html>

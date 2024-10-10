@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>math函数使用</title>
+</head>
+
+<body>
+    创建一个网页，要求用户输入一个数字，然后使用 Math 对象的方法计算并显示该数字的平方根、立方根和随机数（范围在 0 到该数字之间）
+    <form action="">
+        <input type="text" id="num">
+        <input type="button" value="计算" onclick="calc()">
+    </form>
+    <script>
+        function calc() {
+            var num = document.getElementById('num').value;
+            var sqrt = Math.sqrt(num);
+            var cbrt = Math.cbrt(num);
+            var random = Math.random() * num;
+            alert('平方根：' + sqrt + '\n立方根：' + cbrt + '\n随机数：' + random);
+        }
+    </script>
+
+</body>
+
+</html>
