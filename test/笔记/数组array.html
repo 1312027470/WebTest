@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var arr1 = new Array();
+        arr1[0] = "admin";
+
+        //创建元素
+        let arr2 = [];
+        let arr3 = [1, 2.3 / 4, 5];
+        //访问数组的元素
+        console.log(arr3[2]);
+
+        //数组的常用方法
+        //数组长度
+        console.log(arr3.length);
+        //添加元素
+        //push()方法:向数组的末尾添加一个或多个元素，并返回新的长度
+        let fruits = ["apple", "orange"];
+        fruits.push("banana");
+        console.log(fruits);
+        //unshift()方法:向数组的开头添加一个或多个元素，并返回新的长度
+        fruits.unshift("strawberry");
+        console.log(fruits);
+        //修改元素
+        //splice()方法:通过删除或替换现有元素或者原地添加新的元素来修改数组，并以数组形式返回被修改的内容
+        fruits.splice(1, 3);//删除从索引1开始的3个元素
+        console.log(fruits);
+
+        //数组遍历
+        for (let i = 0; i < fruits.length; i++) {
+            console.log(fruits[i]);
+        }
+        //forEach()方法:对数组的每个元素执行一次提供的函数
+        fruits.forEach(fruittName => {
+            console.log(fruittName)
+        })
+    </script>
+
+</body>
+
+</html>
