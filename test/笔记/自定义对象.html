@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    //自定义对象
+    function book(name, authon, publisher) {//构造函数
+        this.name = name;
+        this.authon = authon;
+        this.publisher = publisher;
+        //方法成员
+        this.print = print;
+
+    }
+
+    //方法2
+    var person = {
+        //成员属性
+        name: "张三",
+        age: 18,
+        //成员方法
+        getLocation: function () {
+            return "湖南长沙";
+        }
+    }
+
+    console.log(person.name);
+    console.log(person.age);
+    console.log(person.getLocation());
+</script>
+
+<body>
+
+</body>
+
+</html>
