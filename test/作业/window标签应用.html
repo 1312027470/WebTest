@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>window标签应用</title>
+</head>
+
+<body>
+    <button id="refresh">刷新页面</button>
+    <button id="back">后退到上一页</button>
+
+    <script>
+        window.onload = function () {
+            alert('浏览器窗口的宽度：' + window.innerWidth + '\n浏览器窗口的高度：' + window.innerHeight);
+        }
+
+        document.onclick = function () {
+            alert('当前网页的 URL：' + window.location.href);
+        }
+
+        document.getElementById('refresh').onclick = function () {
+            window.location.reload();
+        }
+
+        document.getElementById('back').onclick = function () {
+            window.history.back();
+        }
+    </script>
+</body>
+
+</html>
