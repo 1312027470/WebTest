@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>员工信息管理系统</title>
+</head>
+<style>
+	table,
+	th,
+	td {
+		border: 1px solid;
+		border-collapse: collapse;
+		/* 单元格之间无间距 */
+
+		text-align: center;
+		/* 字体居中 */
+	}
+
+	th,
+	td {
+		padding: 5px 10px;
+		/* 单元格内边距，上下5px，左右10px */
+	}
+
+	thead {
+		/* 字体加粗 */
+		font-weight: bold;
+	}
+</style>
+
+<body>
+	<h1>Employee Information</h1>
+	<table>
+		<thead>
+			<tr>
+				<td>ID</td>
+				<td>Name</td>
+				<td>Department</td>
+				<td>Salary</td>
+				<td>Actions</td>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- 为每个单元格添加空白文本框，在Actions栏添加Edit和Delete按钮 -->
+			<tr>
+				<td>2</td>
+				<td>Jane Smith</td>
+				<td>HR</td>
+				<td>45000</td>
+				<td>
+					<button id="edit">Edit</button>
+					<button id="del">Delete</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<script>
+		document.getElementById('edit').onclick = function () {
+			// 依次弹出提示输入编辑本行单元格的提示
+		};
+
+		document.getElementById('del').onclick = function () {
+			alert('Delete button clicked for ID 2');
+		};
+	</script>
+</body>
+
+</html>
