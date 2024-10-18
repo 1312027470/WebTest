@@ -42,28 +42,51 @@
 			</tr>
 		</thead>
 		<tbody>
-			<!-- 为每个单元格添加空白文本框，在Actions栏添加Edit和Delete按钮 -->
+
 			<tr>
 				<td>2</td>
-				<td>Jane Smith</td>
-				<td>HR</td>
-				<td>45000</td>
+				<td id="name2">Jane Smith</td>
+				<td id="dep2">HR</td>
+				<td id="salary2">45000</td>
 				<td>
-					<button id="edit">Edit</button>
-					<button id="del">Delete</button>
+					<button id="edit2">Edit</button>
+					<button id="del2">Delete</button>
+				</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td id="name3">Bob Johnson</td>
+				<td id="dep3">Engineering</td>
+				<td id="salary3">60000</td>
+				<td>
+					<button id="edit3">Edit</button>
+					<button id="del3">Delete</button>
 				</td>
 			</tr>
 		</tbody>
 	</table>
 
 	<script>
-		document.getElementById('edit').onclick = function () {
-			// 依次弹出提示输入编辑本行单元格的提示
+		document.getElementById('edit2').onclick = function () {
+			// 点击edit按钮，弹出prompt，输入新的name，department和salary
+			var name = prompt('Enter the new name', document.getElementById('name2').innerText);
+			var dep = prompt('Enter the new department', document.getElementById('dep2').innerText);
+			var salary = prompt('Enter the new salary', document.getElementById('salary2').innerText);
+			//更改单元格数据
+			document.getElementById('name2').innerText = name;
+			document.getElementById('dep2').innerText = dep;
+			document.getElementById('salary2').innerText = salary;
+		};
+		document.getElementById('edit3').onclick = function () {
+			var name = prompt('Enter the new name', document.getElementById('name3').innerText);
+			var dep = prompt('Enter the new department', document.getElementById('dep3').innerText);
+			var salary = prompt('Enter the new salary', document.getElementById('salary3').innerText);
+			document.getElementById('name3').innerText = name;
+			document.getElementById('dep3').innerText = dep;
+			document.getElementById('salary3').innerText = salary;
 		};
 
-		document.getElementById('del').onclick = function () {
-			alert('Delete button clicked for ID 2');
-		};
+
 	</script>
 </body>
 
